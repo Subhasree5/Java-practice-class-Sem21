@@ -1,0 +1,43 @@
+import java.util.Scanner; // Import the Scanner class
+
+public class ScannerDemo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // Create a Scanner object
+        
+        System.out.print("Enter UserName: ");
+        String username = sc.nextLine(); // Read username
+        
+        System.out.print("Enter Age: ");
+        int age = sc.nextInt(); // Read age (integer)
+        sc.nextLine(); // Consume the leftover newline after the integer input
+
+        System.out.print("Enter Branch: ");
+        String branch = sc.nextLine(); // Read branch
+
+        System.out.print("Enter Section: ");
+        char sec = sc.nextLine().charAt(0); // Read section (single character)
+
+        System.out.print("Enter CGPA: ");
+        float cgpa = sc.nextFloat(); // Read CGPA (floating point)
+
+        // Print the collected information
+        System.out.println("UserName is: " + username);
+        System.out.println("Age is: " + age);
+        System.out.println("Branch is: " + branch);
+        System.out.println("Section is: " + sec);
+        System.out.println("CGPA is: " + cgpa);
+        
+        sc.close(); // Close the scanner
+    }
+}
+Output: 
+Enter UserName: Subhasree
+Enter Age: 19
+Enter Branch: CSE
+Enter Section: D
+Enter CGPA: 9.79
+UserName is: Subhasree
+Age is: 19
+Branch is: CSE
+Section is: D
+CGPA is: 9.79
