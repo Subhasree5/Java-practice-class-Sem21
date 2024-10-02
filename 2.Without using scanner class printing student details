@@ -1,0 +1,20 @@
+public class Program{
+    public static void main(String[] args){
+        String username="Subhasree";
+        int age=19;
+        String branch="CSE";
+        char sec='D';
+        double cgpa=9.75;
+        System.out.println("UserName: "+username);
+        System.out.println("Age: "+age);
+        System.out.println("Branch: "+branch);
+        System.out.println("Section: "+sec);
+        System.out.println("CGPA: "+cgpa);
+    }
+}
+OUTPUT:
+UserName: Subhasree
+Age: 19
+Branch: CSE
+Section: D
+CGPA: 9.75
