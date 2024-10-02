@@ -30,14 +30,14 @@ public class ScannerDemo {
         sc.close(); // Close the scanner
     }
 }
-Output: 
-Enter UserName: Subhasree
-Enter Age: 19
-Enter Branch: CSE
-Enter Section: D
-Enter CGPA: 9.79
-UserName is: Subhasree
-Age is: 19
-Branch is: CSE
-Section is: D
-CGPA is: 9.79
+------OUTPUT:------
+Enter Username: Mahitha Meghana
+Enter Age: 9
+Enter Branch: 2nd
+Enter Section: A
+Enter cgpa: 98
+UserName: Mahitha Meghana
+Age: 9
+Branch: 2nd
+Section: A
+CGPA: 98.0
