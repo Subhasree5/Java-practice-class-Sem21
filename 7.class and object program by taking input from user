@@ -23,3 +23,9 @@ public class Demo{
 		System.out.println("Subtraction: "+d.subtract());
 	}		
 }	
+
+Output:
+Enter a: 1
+Enter b: 9
+Addition: 10
+Subtraction: -8
