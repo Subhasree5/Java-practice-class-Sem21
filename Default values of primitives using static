@@ -1,0 +1,34 @@
+public class Defaultvalues{
+	static boolean defaultBoolean;
+	static char defaultChar;
+	static byte defaultByte;
+	static short defaultShort;
+	static int defaultInt;
+	static long defaultLong;
+	static float defaultFloat;
+	static double defaultDouble;
+	void display(){
+		System.out.println("Boolean: "+defaultBoolean);
+		System.out.println("Char: "+defaultChar);
+		System.out.println("Byte: "+defaultByte);
+		System.out.println("Short: "+defaultShort);
+		System.out.println("Int: "+defaultInt);
+		System.out.println("Long: "+defaultLong);
+		System.out.println("Float: "+defaultFloat);
+		System.out.println("Double: "+defaultDouble);
+	}
+	public static void main(String[]args){
+		Defaultvalues defaults=new Defaultvalues();
+		defaults.display();
+	}	
+}
+
+Output:
+Boolean: false
+Char: 
+Byte: 0
+Short: 0
+Int: 0
+Long: 0
+Float: 0.0
+Double: 0.0
