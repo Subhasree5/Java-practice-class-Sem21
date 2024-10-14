@@ -1,0 +1,9 @@
+public class StringDemo{
+	public static void main(String[]args){
+		String greet="Hello!";
+		System.out.println(greet);
+	}
+}		
+
+output
+Hello!
