@@ -1,0 +1,22 @@
+public class Demo{
+	int a;
+	int b;
+	Demo(int a,int b){
+		this.a=a;
+		this.b=b;
+	}
+	int add(){
+		return a+b;
+	}
+	int subtract(){
+		return a-b;
+	}
+	public static void main(String[]args){
+		Demo d=new Demo(20,10);
+		System.out.println("Addition: "+d.add());
+		System.out.println("Subtraction: "+d.subtract());
+	}		
+}	
+Output:
+Addition: 30
+Subtraction: 10
