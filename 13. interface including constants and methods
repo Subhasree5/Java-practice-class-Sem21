@@ -1,0 +1,21 @@
+interface A{
+	int a=20;
+	void display();
+}
+class B implements A{
+	public void display(){
+		System.out.println("Hi!");
+	}
+}
+public class Interface{
+	public static void main(String[]args){
+		B obj=new B();
+		obj.display();
+		int a=30;
+		System.out.println(obj.a);
+	}
+}					
+
+Output:
+Hi!
+20
