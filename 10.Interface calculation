@@ -1,0 +1,22 @@
+public class Math{
+	interface A{
+		int add(int a,int b);
+		int subtract(int a,int b);
+	}
+	static class B implements A{
+		public int add(int a,int b){
+			return a+b;
+		}
+		public int subtract (int a,int b){
+			return a-b;
+		}
+	}
+	public static void main(String[]args){
+		B obj=new B();
+		System.out.println("Addition: "+obj.add(5,3));
+		System.out.println("Subtraction: "+obj.subtract(5,3));
+	}
+}						
+Output:
+Addition: 8
+Subtraction: 2
