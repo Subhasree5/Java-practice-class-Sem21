@@ -1,0 +1,46 @@
+interface Vehicle{
+	void start();
+	void stop();
+	default void honk(){
+		System.out.println("Honk!");
+	}
+}
+class Car implements Vehicle{
+	public void start(){
+		System.out.println("Car is starting");
+	}
+	public void stop(){
+		System.out.println("Car is stopping");
+	}
+}
+class Bike implements Vehicle{
+	public void start(){
+		System.out.println("Bike is starting");
+	}
+	public void stop(){
+		System.out.println("Bike is stopping");
+	}
+}					
+public class VehicleInterface{
+	public static void main(String[]args){
+		Car c=new Car();
+		Bike b=new Bike();
+		System.out.println("Testing car:");
+		c.start();
+		c.stop();
+		c.honk();
+		System.out.println("Testing bike:");
+		b.start();
+		b.stop();
+		b.honk();
+	}
+}		
+Output:
+Testing car:
+Car is starting
+Car is stopping
+Honk!
+Testing bike:
+Bike is starting
+Bike is stopping
+Honk!
