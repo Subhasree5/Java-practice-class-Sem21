@@ -1,0 +1,25 @@
+interface A{
+	void display();
+}
+interface B{
+	void show();
+}
+class c implements A,B{
+	public void display(){
+		System.out.println("Display");
+	}
+	public void show(){
+		System.out.println("Show");
+	}
+}
+public class MultipleInterface{
+	public static void main(String []args){
+		c obj=new c();
+		obj.display();
+		obj.show();
+	}
+}							
+
+Output
+Display
+Show
